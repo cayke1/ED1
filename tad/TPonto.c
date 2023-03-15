@@ -36,8 +36,8 @@ void TPonto_set(struct ponto *ponto, float p1, float p2) {
     }
 }
 
-// void TPonto_get(TPonto *ponto, float *p1, float *p2) {
-//     p2 = ponto->y;
-//     p1 = ponto->x;
-// }
+void TPonto_get(TPonto *ponto, float *p1, float *p2) {
+     *p1 = ponto->x;
+     *p2 = ponto->y;
+}
     
